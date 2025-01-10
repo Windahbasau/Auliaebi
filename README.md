@@ -13,7 +13,7 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © Evichann                        [+]${NC}"
+  echo -e "${BLUE}[+]                  ©    qin                        [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] =============================================== [+]${NC}"
   echo -e ""
@@ -21,9 +21,9 @@ display_welcome() {
   echo -e "dilarang keras untuk dikasih gratis."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@Evichann"
+  echo -e "@qin"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@Evichann"
+  echo -e "@qin"
   sleep 4
   clear
 }
@@ -62,14 +62,14 @@ check_token() {
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "Evichann" ]; then
+  if [ "$USER_TOKEN" = "qin" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}Buy dulu Gih Ke Vinz${NC}"
-    echo -e "${YELLOW}TELEGRAM : @davinn24${NC}"
-    echo -e "${YELLOW}WHATSAPP : 6285780916731${NC}"
+    echo -e "${GREEN}Buy dulu Gih Ke qin${NC}"
+    echo -e "${YELLOW}TELEGRAM : @qin${NC}"
+    echo -e "${YELLOW}WHATSAPP : 6283139764917${NC}"
     echo -e "${YELLOW}HARGA TOKEN : 25K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}©davinn24${NC}"
+    echo -e "${YELLOW}©qin24${NC}"
     exit 1
   fi
   clear
